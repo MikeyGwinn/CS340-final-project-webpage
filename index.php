@@ -1,9 +1,9 @@
 <?php
 // Database connection configuration
 $host = 'localhost';
-$dbname = 'CS340-term-project';
-$username = 'root';
-$password = '';
+$dbname = 'CS340-term-project-1';
+$username = 'phpmyadmin';
+$password = 'CS340termproject';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
